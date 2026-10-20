@@ -1,0 +1,56 @@
+    
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: rgb(169, 148, 129);
+}
+
+    .days div {
+        background-color: rgb(169, 148, 129);
+        color: #f1e4e4;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: rgb(169, 148, 129);
+    color: rgb(169, 148, 129);
+}
+    .container div {
+        background-color: #f1e4e4;
+        border: 1px solid rgb(169, 148, 129);
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container div:hover {
+        background-color: #cfbbc0;
+    }
+
+dialog {
+    border: none;
+    border-radius: 8px;
+    color: rgb(94, 77, 61);
+    background-color: #f1e4e4;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+    dialog::backdrop {
+        background-color: rgba(244, 240, 235, 0.5);
+    }
+
+    #closeButton {
+        background-color:white;
+        color: rgb(94, 77, 61);
+    }
+
+#title {
+    text-align: center;
+    color: rgb(94, 77, 61);
+}
